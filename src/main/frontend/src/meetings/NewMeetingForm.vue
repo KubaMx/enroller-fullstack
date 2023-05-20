@@ -2,7 +2,7 @@
   <form @submit.prevent="addNewMeeting()">
     <h3>Dodaj nowe spotkanie</h3>
     <label>Nazwa</label>
-    <input type="text" v-model="newMeeting.name">
+    <input type="text" v-model="newMeeting.title">
     <label>Opis</label>
     <textarea v-model="newMeeting.description"></textarea>
     <button>Dodaj</button>
